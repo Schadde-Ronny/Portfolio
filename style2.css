@@ -25,6 +25,12 @@ header {
                 ;
     
 }
+.name {
+  background: linear-gradient(to top, red, orange, yellow);
+  background-clip: text;
+  -webkit-background-clip: text; /* Für Webkit-basierte Browser (Chrome, Safari, etc.) */
+  color: transparent;
+}
 /* box-shadow: horizontale Achse, Vertikale Achse, Tiefe und Breite */
 .vorstellung {
     box-shadow: 0px 0px 10px 10px white;
