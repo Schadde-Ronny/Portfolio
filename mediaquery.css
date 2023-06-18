@@ -1,0 +1,141 @@
+/* Smartphones */
+@media screen and (max-width: 414px) {
+    .h1 {
+        display: flex;
+        font-size: 34px;
+        
+    }
+    nav {
+        display: block;
+        padding: auto;
+        margin: auto;
+    }
+    .vorstellung {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        padding: auto;
+        margin: auto;
+    }
+        .vorstellung p {
+        max-width: 100%;
+        padding: auto;
+        margin: auto;
+        font-size: 15px;
+    }
+    .vorstellung img {
+        max-width: 100%;
+        padding: auto;
+        margin: auto;
+    }
+    nav a:nth-child(3) {
+        display: none;
+    }
+
+
+    .flex-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: auto;
+        margin: auto;
+    }
+    .footer-container {
+        display: none;
+    }
+}
+/* @media screen and (max-height: 414px) {
+    .h1 {
+        display: flex;
+        font-size: 34px;
+        
+    }
+    nav {
+        display: block;
+        padding: auto;
+        margin: auto;
+    }
+    .vorstellung {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        padding: auto;
+        margin: auto;
+    }
+        .vorstellung p {
+        max-width: 100%;
+        padding: auto;
+        margin: auto;
+        font-size: 15px;
+    }
+    .vorstellung img {
+        max-width: 100%;
+        padding: auto;
+        margin: auto;
+    }
+    nav a:nth-child(3) {
+        display: none;
+    }
+
+
+    .flex-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: auto;
+        margin: auto;
+    }
+    .footer-container {
+        display: none;
+    }
+} */
+/* Tablets */
+@media screen and (min-width: 415px) and (max-width: 1024px) {
+    .h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 50px;
+        margin: auto;
+        padding: auto;
+
+    }
+    nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    nav a:nth-child(3) {
+        display: none;
+    }
+    .vorstellung p  {
+        font-size: 12px;
+        max-width: 100%;
+        padding: auto;
+        margin: auto;
+    }
+    .vorstellung img{
+        padding: auto;
+        margin: auto;
+    } 
+    .flex-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: auto;
+        margin: auto;
+    }
+    .footer-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .footer-container div:last-child {
+        display: none;
+    }
+}
