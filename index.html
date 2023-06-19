@@ -7,10 +7,10 @@
     <!-- <meta name="revisit" content="10 days"> Dieser Meta-Tag gibt an, wann eine Website nach Aktualisierungen durchsucht werden sollen-->
     <meta name="description" content="Portfolio zu Ronny Frevert" />
     <meta name="keywords" content="Bewerbung" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="style2.css" />
-    <link rel="stylesheet" href="animation.css" />
-    <link rel="stylesheet" href="mediaquery.css" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="./CSS/style2.css" />
+    <link rel="stylesheet" href="./CSS/animation.css" />
+    <link rel="stylesheet" href="./CSS/mediaquery.css" />
     <title>Portfolio</title>
   </head>
   <body>
@@ -34,7 +34,7 @@
       <aside>
         <nav>
           <a href="#">Home</a>
-          <a href="#">Contact</a>
+          <a href="mailto:frevert71@gmail.com">Contact</a>
           <a href="#">Shop</a>
           <a href="#">About</a>
         </nav>
@@ -57,8 +57,9 @@
 
       <div class="flex-container">
         <div class="flex-untercontainer">
-          <div>
+          <div class="first-child">
             <a href="#"><h2>Stärken</h2></a>
+            <!-- dl=despriction-list dt-Tag enthält den ausdruck in diesem Fall HTML, CSS und Javascript während das dd-Element die Beschreibung enthält in diesem Fall eine prozentuale Beschreibung -->
             <dl class="horizontal">
               <dt>HTML</dt>
               <dd><span>50%</span></dd>
@@ -68,7 +69,7 @@
               <dd><span>10%</span></dd>
             </dl>
           </div>
-          <div>
+          <div class="second-child">
             <a href="#"><h2>Schwächen</h2></a>
             <dl class="horizontal">
               <dt>HTML</dt>
@@ -79,13 +80,13 @@
               <dd><span>90%</span></dd>
             </dl>
           </div>
-          <div>
+          <div class="third-child">
             <a href="#"><h2>Eigenstudium</h2></a>
           </div>
         </div>
         <div class="flex-untercontainer2">
           <div>
-            <a href="#"><h2>Projekte mit HTML und CSS</h2></a>
+            <a href="#"><h2>Projekte: HTML, CSS</h2></a>
           </div>
           <div>
             <a href="#"><h2>Projekte mit Javascript</h2></a>

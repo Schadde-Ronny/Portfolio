@@ -58,7 +58,7 @@ dl.horizontal dt {float:left; width:150px; clear:both; margin:0 0 5px 0; padding
     margin: 20px;
     padding: 20px;  
 }
-dl.horizontal dd {float:left; width:300px; border:1px solid #aaaaaa; margin:0 0 5px 0; padding:2px; -moz-box-shadow: 1px  1px 3px #aaaaaa;}
+dl.horizontal dd {float:left; width:300px; border:1px solid #aaaaaa; margin:0 0 5px 0; padding:2px; box-shadow: 1px  1px 3px #aaaaaa;}
 dl.horizontal dd span {background:#1770d3; display:block; color:#ffffff; text-indent:4px;}
 .flex-untercontainer2 {
     margin: 20px;

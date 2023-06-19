@@ -2,7 +2,6 @@ body {
     background: repeating-linear-gradient(to top, black, #3E0600);
 }
 header {
-      
         font-size: 70px;
         font-weight: bold;
         text-shadow:   0px   0px 10px white,
@@ -21,8 +20,8 @@ header {
                       20px -65px 15px #981D01,
                       25px -70px 10px #851200,
                       25px -75px 10px #690D00,
-                     -25px -80px 10px #3E0600
-                ;
+                     -25px -80px 10px #3E0600;
+                
     
 }
 .name {
@@ -31,10 +30,11 @@ header {
   -webkit-background-clip: text; /* Für Webkit-basierte Browser (Chrome, Safari, etc.) */
   color: transparent;
 }
-/* box-shadow: horizontale Achse, Vertikale Achse, Tiefe und Breite */
+
+/* box-shadow: horizontale Achse, Vertikale Achse, Größe des Schattens */
 .vorstellung p{
   background: linear-gradient(to top, red, orange, yellow);
-  background-clip: text;
+  background-clip: text; /* Bezieht sich nur auf den Text*/
   -webkit-background-clip: text;
   color: transparent;
     box-shadow: 0px 0px 10px 10px white;
@@ -53,6 +53,12 @@ a {
     0 0 151px #0fa;
 }
 /* text-shadow: horizontale Achse, vertikale Achse  Breite und höhe*/
+.flex-untercontainer div:first-child {
+  margin-bottom: 80px;
+}
+.flex-untercontainer div:nth-child(2) {
+  margin-bottom: 80px;
+}
 .flex-untercontainer a:hover {
     color: white;
     text-shadow:   0px   0px 10px white,

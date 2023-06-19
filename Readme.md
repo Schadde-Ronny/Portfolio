@@ -10,4 +10,3 @@ Animation einfügen
 Reponsive Design erstellen (Handy und Tablet)
 Webseite testen und gegebenenfalls änderungen nur im CSS vornehmen
 https://excalidraw.com
-[label](vscode-local:/Ubuntu/home/ronny/Portfolio/Zeitplan.ods)

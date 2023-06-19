@@ -25,9 +25,13 @@
         font-size: 15px;
     }
     .vorstellung img {
-        width: 100px;
+        width: 120px;
         padding: auto;
         margin: auto;
+    }
+    .bild-container {
+        margin: 20px;
+        padding: 20px;
     }
     nav a:nth-child(3) {
         display: none;
@@ -57,7 +61,7 @@
     .flex-untercontainer div:nth-child(2) {
         margin-bottom: 150px;
     }
-    dl.horizontal dd {float:left; max-width:100px; border:1px solid #aaaaaa; margin:0 0 5px 0; padding:2px; -moz-box-shadow: 1px  1px 3px #aaaaaa;}
+    dl.horizontal dd {float:left; max-width:100px; border:1px solid #aaaaaa; margin:0 0 5px 0; padding:2px; box-shadow: 1px  1px 3px #aaaaaa;}
     dl.horizontal dd span {background:#1770d3; display:block; color:#ffffff; text-indent:4px;}
 
     .footer-container {
@@ -68,53 +72,7 @@
         display: none;
     }
 }
-/* @media screen and (max-height: 414px) {
-    .h1 {
-        display: flex;
-        font-size: 34px;
-        
-    }
-    nav {
-        display: block;
-        padding: auto;
-        margin: auto;
-    }
-    .vorstellung {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column-reverse;
-        padding: auto;
-        margin: auto;
-    }
-        .vorstellung p {
-        max-width: 100%;
-        padding: auto;
-        margin: auto;
-        font-size: 15px;
-    }
-    .vorstellung img {
-        max-width: 100%;
-        padding: auto;
-        margin: auto;
-    }
-    nav a:nth-child(3) {
-        display: none;
-    }
 
-
-    .flex-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        padding: auto;
-        margin: auto;
-    }
-    .footer-container {
-        display: none;
-    }
-} */
 /* Tablets */
 @media screen and (min-width: 415px) and (max-width: 1024px) {
     .h1 {
@@ -153,13 +111,32 @@
         padding: auto;
         margin: auto;
     }
-    dl {
-        display: block;
+    dl.horizontal {
+        font-size: 12px; 
+        font-family: Arial, Helvetica, sans-serif;
+        max-width: 200px;
     }
-    .footer-container {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
+    dl.horizontal dt {float:left; max-width:100px; clear:both; margin:0 0 5px 0; padding:3px;}
+    .flex-untercontainer {
+        margin: 20px;
+        padding: 20px;  
+    }
+    .flex-untercontainer div:first-child {
+        margin-bottom: 150px;
+        padding: auto;
+    }
+    .flex-untercontainer div:nth-child(2) {
+        margin-bottom: 150px;
+    }
+    dl.horizontal dd {float:left; max-width:100px; border:1px solid #aaaaaa; margin:0 0 5px 0; padding:2px; box-shadow: 1px  1px 3px #aaaaaa;}
+    dl.horizontal dd span {background:#1770d3; display:block; color:#ffffff; text-indent:4px;}
+    .footer-container div {
+        display: inline;
+        max-width: 20%;
+        margin: auto;
+        padding: auto;
+        
+        
     }
     .footer-container div:last-child {
         display: none;
