@@ -46,7 +46,7 @@
   }
    
 header {
-    animation: flicker 20s ease-in-out infinite;
+    animation: flicker 20s ease-in-out infinite, slide-in 10s forwards;
 }
 
 

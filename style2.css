@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background: repeating-linear-gradient(to top, black, #3E0600);
 }
 header {
       
@@ -19,7 +19,7 @@ header {
                       20px -55px 15px #B82B00,
                      -20px -60px 15px #A11301,
                       20px -65px 15px #981D01,
-                     -25px -70px 10px #851200,
+                      25px -70px 10px #851200,
                       25px -75px 10px #690D00,
                      -25px -80px 10px #3E0600
                 ;
@@ -32,8 +32,16 @@ header {
   color: transparent;
 }
 /* box-shadow: horizontale Achse, Vertikale Achse, Tiefe und Breite */
-.vorstellung {
+.vorstellung p{
+  background: linear-gradient(to top, red, orange, yellow);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
     box-shadow: 0px 0px 10px 10px white;
+}
+.vorstellung img {
+  box-shadow: 0 0 5px 5px black;
+  width: 250px;
 }
 a {
     color: #0fa;
