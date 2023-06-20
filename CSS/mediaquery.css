@@ -71,6 +71,9 @@
     .footer-container div:last-child {
         display: none;
     }
+    .popup-container {
+        max-width: 100%;
+    }
 }
 
 /* Tablets */
@@ -141,4 +144,8 @@
     .footer-container div:last-child {
         display: none;
     }
+    .popup-container {
+        max-width: 100%;
+    }
 }
+
