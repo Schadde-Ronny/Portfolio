@@ -151,9 +151,7 @@ a {
 #checkbox {
   display: none;
 }
-#checkbox:checked ~ .popup-container {
-  animation: fadeOut 1s ease-in-out forwards;
-}
+
 
 .accept-button {
   background-color: #4caf50;
