@@ -46,7 +46,17 @@
   }
    
 header {
-    animation: flicker 20s ease-in-out infinite, slide-in 10s forwards;
+    animation: flicker 20s ease-in-out infinite, slide-in 5s linear;
+}
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+    visibility: visible;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
 }
 
 
