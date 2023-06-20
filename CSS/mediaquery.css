@@ -72,8 +72,13 @@
         display: none;
     }
     .popup-container {
+        display: block;
         max-width: 100%;
     }
+    .button-container label {
+        margin: 5px;
+        padding: 5px;
+     }
 }
 
 /* Tablets */
@@ -145,7 +150,12 @@
         display: none;
     }
     .popup-container {
+        display: block;
         max-width: 100%;
     }
+    .button-container label {
+        margin: 5px;
+        padding: 5px;
+     }
 }
 
