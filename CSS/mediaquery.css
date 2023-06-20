@@ -90,6 +90,7 @@
         font-size: 50px;
         margin: auto;
         padding: auto;
+        
 
     }
     nav {
@@ -109,6 +110,7 @@
     .vorstellung img{
         padding: auto;
         margin: auto;
+        max-width: 100%;
     } 
     
     .flex-container {
